@@ -2,7 +2,7 @@ import Pro1 from "../assets/project1.png"
  import Pro2 from "../assets/project2.png"
  import Pro3 from "../assets/project3.png"
 import Pro4 from "../assets/Project4.png"
-import Pro5 from "../assets/project5.png"
+import Pro5 from "../assets/project5.jpeg"
 const ProjectCardData =[
     {
         imgsrc : Pro1,

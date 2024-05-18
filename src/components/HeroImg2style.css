@@ -1,44 +1,60 @@
-.hero-img {
-    width: 100%;
-    background-color: rgba(0,0,0,0.5);
-    height: 60vh;
-    position: relative;
-}
-
-.hero-img::before {
-    content: "";
-   
-    background: url("https://i.pinimg.com/564x/dd/c3/99/ddc399d603962284048265797b46769a.jpg");
-    background-size: cover;
-    background-position: center;
+.hero-img{
     height: 100%;
     width: 100%;
+}
+.hero-img .heading{
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-
-.heading {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.hero-img h1 {
-  font-size: 2.4rem;
-
-}
-.hero-img p {
-    font-size: 1.4rem;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
     text-align: center;
 }
-@media screen and (max-width : 640px) {
-    .hero-img h1 {
-        font-size: 2rem;
-      
-      }
+.hero-img .heading h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+    background: #6fffe9;
+    background: -webkit-linear-gradient(to bottom, #ffffff 30%, #ffc107 60%);
+    background: -moz-linear-gradient(to bottom, #ffffff 30%, #ffc107 60%);
+    background: linear-gradient(to bottom, #ffffff 30%, #ffc107 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-fill-mode: forwards;
+    font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
+.hero-img .heading p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    /* text-transform: uppercase; */
+}
+/* .content .btn-light {
+    margin: 1rem 0.2rem;
+} */
+
+.custom-hr2 {
+    background: transparent; /* Make the background transparent */
+    border: 0; /* Remove the default border */
+    height: 1px; /* Set the height of the line */
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Add the custom border style */
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); /* Apply the box-shadow */
+    border-radius: 8px; /* Add border radius */
+    overflow: hidden; /* Ensure the overflow is hidden */
+    width: 60%; /* Set the width to 80% */
+    margin: 20px auto; /* Center the element and add some margin for spacing */
+}
+
+@media screen and (max-width : 640px) {
+    .hero-img .heading h1 {
+        font-size: 3rem;
+        padding: 0.6rem 0 1.5rem;
+    }
+    .hero-img .heading p{
+        font-size: 1.4rem;
+    
+    }
+}
+
+
+ 

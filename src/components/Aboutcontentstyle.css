@@ -6,10 +6,12 @@
     justify-content: center;
     flex-wrap: wrap;
     height: 100%;
+    background-color: #1a1b1e;
+    color: #ffffff;
 }
 
 .about .left{
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
     padding: 1rem;
     max-width: 350px;
@@ -48,3 +50,192 @@
     grid-row: 1;
     z-index: 5;
 }
+
+.education {
+    margin-top: 40px;
+    background-color: #1a1b1e;
+  }
+  
+  .education h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    
+  }
+  
+  .timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #e9ecef;
+    left: 50%;
+    margin-left: -1px;
+  }
+  
+  .timeline > li {
+    position: relative;
+    min-height: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .timeline > li:before,
+  .timeline > li:after {
+    content: "";
+    display: table;
+  }
+  
+  .timeline > li:after {
+    clear: both;
+  }
+  
+  .timeline > li .timeline-panel {
+    width: 45%;
+    float: left;
+    background: #1a1b1e;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    color: #ffffff;
+    margin-left: 15px;
+    
+  }
+  .making {
+    text-align: right;
+  }
+  
+  .timeline > li .timeline-panel:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #1a1b1e;
+    border-right: 0 solid #1a1b1e;
+    border-bottom: 15px solid transparent;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    margin-right: 15px;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel:before {
+    right: auto;
+    left: -15px;
+    border-left-width: 0;
+    border-right-width: 15px;
+    border-left-color: transparent;
+    border-right-color: #1a1b1e;
+  }
+  
+  .timeline > li .timeline-image {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+    text-align: center;
+  }
+  
+  .timeline > li .timeline-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  
+  .timeline > li .timeline-image h4 {
+    margin-top: 0;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-image {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin-left: -60px;
+    text-align: center;
+  }
+
+  .custom-hr {
+    background: transparent; 
+    border: 0; 
+    height: 2px; 
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); 
+    border-radius: 8px; 
+    overflow: hidden; 
+    width: 80%; 
+    margin: 20px auto; 
+  }
+  .custom-hr1 {
+    background: transparent; 
+    border: 0; 
+    height: 1px; 
+    border-top: 1px solid rgba(255, 255, 255, 0.2); 
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1); 
+    border-radius: 8px; 
+    overflow: hidden; 
+    width: 80%; 
+   
+    text-align: right;
+}
+    
+@media screen and (max-width: 640px) {
+    .timeline > li > .timeline-panel {
+        width: 80%;
+        float: none;
+        background: #1a1b1e;
+        border-radius: 2px;
+        padding: 20px;
+        position: relative;
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+        color: #ffffff;
+        margin: 20px auto; /* Center the panels and add vertical space */
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel {
+        float: none; /* Reset float to prevent text overlapping */
+        width: 80%;
+        margin: 20px auto; /* Center the panels and add vertical space */
+    }
+
+    .timeline > li > .timeline-badge {
+        left: 50%;
+        margin-left: -15px;
+        top: 0;
+        width: 30px;
+        height: 30px;
+        z-index: 100;
+    }
+
+    .timeline > li > .timeline-badge img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
