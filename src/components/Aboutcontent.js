@@ -85,7 +85,7 @@ export const Aboutcontent = () => {
                     <h5>Kanpur</h5>
                   </div>
                   <div className="timeline-body">
-                    <p className="text-muted">B. Tech in Electrical Engineering<br />CPI: 8.0/10.0</p>
+                    <p className="text-muted">B. Tech in Electrical Engineering<br />CPI: 7.0/10.0</p>
                   </div>
                 </div>
               </li>

@@ -1,8 +1,9 @@
 import Pro1 from "../assets/project1.png"
  import Pro2 from "../assets/project2.png"
- import Pro3 from "../assets/project3.png"
+ import Pro3 from "../assets/project3.jpg"
 import Pro4 from "../assets/Project4.png"
 import Pro5 from "../assets/project5.jpeg"
+import Pro6 from "../assets/project6.png"
 const ProjectCardData =[
     {
         imgsrc : Pro1,
@@ -22,10 +23,10 @@ const ProjectCardData =[
     },
     {
         imgsrc : Pro3,
-        title: "Weather Forecast Application",
-        text: "Created a responsive and interactive Weather Application which allows users to get real time weather information for their location or any other city in the world using Reactjs and OpenWeatherMapApi",
-        view: "https://github.com/vaish1051rd/weather-app",
-        code: "https://github.com/vaish1051rd/weather-app",
+        title: "CodeAI",
+        text: "Created a CodeAI using Vite+React for the frontend and Express.js for the backend. Integrated OpenAI's API for intelligent responses, with CORS for seamless cross-origin requests and dotenv for environment management. This project highlights my skills in full-stack development and API integration. ",
+        view: "https://wondrous-chimera-4e5b26.netlify.app/",
+        code: "https://github.com/vaish1051rd/codeAI",
 
     },
     {
@@ -40,8 +41,16 @@ const ProjectCardData =[
         imgsrc : Pro5,
         title: "Drumkit",
         text: "Created a site where users can play virtual drums by clicking on buttons or pressing on corresponding keyboard keys,producing realistic drum sounds using HTML,CSS,JavaScript",
-        view: "https://github.com/vaish1051rd/drumkit",
+        view: "https://drumkit-by-vaishnavi.netlify.app/",
         code: "https://github.com/vaish1051rd/drumkit",
+
+    },
+    {
+        imgsrc : Pro6,
+        title: "Clock",
+        text: "Bild a Simple clock using HTML,CSS",
+        view: "https://vaish1051rd.github.io/myclock/",
+        code: "https://github.com/vaish1051rd/myclock",
 
     },
 
